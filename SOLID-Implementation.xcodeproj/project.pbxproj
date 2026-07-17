@@ -1,0 +1,993 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4FBCCACE3008CCF600716AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FBCCAB83008CCF400716AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FBCCABF3008CCF400716AC5;
+			remoteInfo = "SOLID-Implementation";
+		};
+		4FBCCAD83008CCF600716AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FBCCAB83008CCF400716AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FBCCABF3008CCF400716AC5;
+			remoteInfo = "SOLID-Implementation";
+		};
+		4FBCCB203008FF4800716AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FBCCAB83008CCF400716AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FBCCB123008FF4700716AC5;
+			remoteInfo = "SOLID-UIKit";
+		};
+		4FBCCB2A3008FF4800716AC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FBCCAB83008CCF400716AC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FBCCB123008FF4700716AC5;
+			remoteInfo = "SOLID-UIKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FBCCAC03008CCF400716AC5 /* SOLID-Implementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOLID-Implementation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBCCACD3008CCF600716AC5 /* SOLID-ImplementationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOLID-ImplementationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBCCAD73008CCF600716AC5 /* SOLID-ImplementationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOLID-ImplementationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBCCB133008FF4700716AC5 /* SOLID-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOLID-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBCCB1F3008FF4800716AC5 /* SOLID-UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOLID-UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FBCCB293008FF4800716AC5 /* SOLID-UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SOLID-UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4FBCCB3B3008FF7D00716AC5 /* Exceptions for "SOLID-Implementation" folder in "SOLID-UIKit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ProfileFeature/Init/ContentView.swift,
+				ProfileFeature/SingleResponsability/ProfileFeature/Infra/API/ProfileAPIClient.swift,
+				ProfileFeature/SingleResponsability/ProfileFeature/Infra/API/ProfileModel.swift,
+				ProfileFeature/SingleResponsability/ProfileFeature/Infra/Cache/CacheUserProfile.swift,
+				ProfileFeature/SingleResponsability/ProfileFeature/SwiftUI/View/SwiftUIProfileView.swift,
+				ProfileFeature/SingleResponsability/ProfileFeature/SwiftUI/ViewModel/SwiftUIProfileViewModel.swift,
+				ProfileFeature/SingleResponsability/ProfileFeature/UIKit/View/ProfileViewController.swift,
+				ProfileFeature/SingleResponsability/ProfileFeature/UIKit/ViewModel/ProfileViewModel.swift,
+				ProfileFeature/SingleResponsability/ProfileFeature/UseCase/LoadProfileUseCase.swift,
+				ProfileFeature/Validators/EmailValidator.swift,
+			);
+			target = 4FBCCB123008FF4700716AC5 /* SOLID-UIKit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4FBCCAC23008CCF400716AC5 /* SOLID-Implementation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FBCCB3B3008FF7D00716AC5 /* Exceptions for "SOLID-Implementation" folder in "SOLID-UIKit" target */,
+			);
+			path = "SOLID-Implementation";
+			sourceTree = "<group>";
+		};
+		4FBCCAD03008CCF600716AC5 /* SOLID-ImplementationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SOLID-ImplementationTests";
+			sourceTree = "<group>";
+		};
+		4FBCCADA3008CCF600716AC5 /* SOLID-ImplementationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SOLID-ImplementationUITests";
+			sourceTree = "<group>";
+		};
+		4FBCCB143008FF4700716AC5 /* SOLID-UIKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SOLID-UIKit";
+			sourceTree = "<group>";
+		};
+		4FBCCB223008FF4800716AC5 /* SOLID-UIKitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SOLID-UIKitTests";
+			sourceTree = "<group>";
+		};
+		4FBCCB2C3008FF4800716AC5 /* SOLID-UIKitUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "SOLID-UIKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FBCCABD3008CCF400716AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCACA3008CCF600716AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCAD43008CCF600716AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB103008FF4700716AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB1C3008FF4800716AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB263008FF4800716AC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FBCCAB73008CCF400716AC5 = {
+			isa = PBXGroup;
+			children = (
+				4FBCCAC23008CCF400716AC5 /* SOLID-Implementation */,
+				4FBCCAD03008CCF600716AC5 /* SOLID-ImplementationTests */,
+				4FBCCADA3008CCF600716AC5 /* SOLID-ImplementationUITests */,
+				4FBCCB143008FF4700716AC5 /* SOLID-UIKit */,
+				4FBCCB223008FF4800716AC5 /* SOLID-UIKitTests */,
+				4FBCCB2C3008FF4800716AC5 /* SOLID-UIKitUITests */,
+				4FBCCAC13008CCF400716AC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FBCCAC13008CCF400716AC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FBCCAC03008CCF400716AC5 /* SOLID-Implementation.app */,
+				4FBCCACD3008CCF600716AC5 /* SOLID-ImplementationTests.xctest */,
+				4FBCCAD73008CCF600716AC5 /* SOLID-ImplementationUITests.xctest */,
+				4FBCCB133008FF4700716AC5 /* SOLID-UIKit.app */,
+				4FBCCB1F3008FF4800716AC5 /* SOLID-UIKitTests.xctest */,
+				4FBCCB293008FF4800716AC5 /* SOLID-UIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FBCCABF3008CCF400716AC5 /* SOLID-Implementation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBCCAE13008CCF600716AC5 /* Build configuration list for PBXNativeTarget "SOLID-Implementation" */;
+			buildPhases = (
+				4FBCCABC3008CCF400716AC5 /* Sources */,
+				4FBCCABD3008CCF400716AC5 /* Frameworks */,
+				4FBCCABE3008CCF400716AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FBCCAC23008CCF400716AC5 /* SOLID-Implementation */,
+			);
+			name = "SOLID-Implementation";
+			packageProductDependencies = (
+			);
+			productName = "SOLID-Implementation";
+			productReference = 4FBCCAC03008CCF400716AC5 /* SOLID-Implementation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FBCCACC3008CCF600716AC5 /* SOLID-ImplementationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBCCAE43008CCF600716AC5 /* Build configuration list for PBXNativeTarget "SOLID-ImplementationTests" */;
+			buildPhases = (
+				4FBCCAC93008CCF600716AC5 /* Sources */,
+				4FBCCACA3008CCF600716AC5 /* Frameworks */,
+				4FBCCACB3008CCF600716AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FBCCACF3008CCF600716AC5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FBCCAD03008CCF600716AC5 /* SOLID-ImplementationTests */,
+			);
+			name = "SOLID-ImplementationTests";
+			packageProductDependencies = (
+			);
+			productName = "SOLID-ImplementationTests";
+			productReference = 4FBCCACD3008CCF600716AC5 /* SOLID-ImplementationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FBCCAD63008CCF600716AC5 /* SOLID-ImplementationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBCCAE73008CCF600716AC5 /* Build configuration list for PBXNativeTarget "SOLID-ImplementationUITests" */;
+			buildPhases = (
+				4FBCCAD33008CCF600716AC5 /* Sources */,
+				4FBCCAD43008CCF600716AC5 /* Frameworks */,
+				4FBCCAD53008CCF600716AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FBCCAD93008CCF600716AC5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FBCCADA3008CCF600716AC5 /* SOLID-ImplementationUITests */,
+			);
+			name = "SOLID-ImplementationUITests";
+			packageProductDependencies = (
+			);
+			productName = "SOLID-ImplementationUITests";
+			productReference = 4FBCCAD73008CCF600716AC5 /* SOLID-ImplementationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4FBCCB123008FF4700716AC5 /* SOLID-UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBCCB313008FF4800716AC5 /* Build configuration list for PBXNativeTarget "SOLID-UIKit" */;
+			buildPhases = (
+				4FBCCB0F3008FF4700716AC5 /* Sources */,
+				4FBCCB103008FF4700716AC5 /* Frameworks */,
+				4FBCCB113008FF4700716AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FBCCB143008FF4700716AC5 /* SOLID-UIKit */,
+			);
+			name = "SOLID-UIKit";
+			packageProductDependencies = (
+			);
+			productName = "SOLID-UIKit";
+			productReference = 4FBCCB133008FF4700716AC5 /* SOLID-UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FBCCB1E3008FF4800716AC5 /* SOLID-UIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBCCB343008FF4800716AC5 /* Build configuration list for PBXNativeTarget "SOLID-UIKitTests" */;
+			buildPhases = (
+				4FBCCB1B3008FF4800716AC5 /* Sources */,
+				4FBCCB1C3008FF4800716AC5 /* Frameworks */,
+				4FBCCB1D3008FF4800716AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FBCCB213008FF4800716AC5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FBCCB223008FF4800716AC5 /* SOLID-UIKitTests */,
+			);
+			name = "SOLID-UIKitTests";
+			packageProductDependencies = (
+			);
+			productName = "SOLID-UIKitTests";
+			productReference = 4FBCCB1F3008FF4800716AC5 /* SOLID-UIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FBCCB283008FF4800716AC5 /* SOLID-UIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FBCCB373008FF4800716AC5 /* Build configuration list for PBXNativeTarget "SOLID-UIKitUITests" */;
+			buildPhases = (
+				4FBCCB253008FF4800716AC5 /* Sources */,
+				4FBCCB263008FF4800716AC5 /* Frameworks */,
+				4FBCCB273008FF4800716AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FBCCB2B3008FF4800716AC5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4FBCCB2C3008FF4800716AC5 /* SOLID-UIKitUITests */,
+			);
+			name = "SOLID-UIKitUITests";
+			packageProductDependencies = (
+			);
+			productName = "SOLID-UIKitUITests";
+			productReference = 4FBCCB293008FF4800716AC5 /* SOLID-UIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FBCCAB83008CCF400716AC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					4FBCCABF3008CCF400716AC5 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					4FBCCACC3008CCF600716AC5 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 4FBCCABF3008CCF400716AC5;
+					};
+					4FBCCAD63008CCF600716AC5 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 4FBCCABF3008CCF400716AC5;
+					};
+					4FBCCB123008FF4700716AC5 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					4FBCCB1E3008FF4800716AC5 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 4FBCCB123008FF4700716AC5;
+					};
+					4FBCCB283008FF4800716AC5 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 4FBCCB123008FF4700716AC5;
+					};
+				};
+			};
+			buildConfigurationList = 4FBCCABB3008CCF400716AC5 /* Build configuration list for PBXProject "SOLID-Implementation" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FBCCAB73008CCF400716AC5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4FBCCAC13008CCF400716AC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FBCCABF3008CCF400716AC5 /* SOLID-Implementation */,
+				4FBCCACC3008CCF600716AC5 /* SOLID-ImplementationTests */,
+				4FBCCAD63008CCF600716AC5 /* SOLID-ImplementationUITests */,
+				4FBCCB123008FF4700716AC5 /* SOLID-UIKit */,
+				4FBCCB1E3008FF4800716AC5 /* SOLID-UIKitTests */,
+				4FBCCB283008FF4800716AC5 /* SOLID-UIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FBCCABE3008CCF400716AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCACB3008CCF600716AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCAD53008CCF600716AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB113008FF4700716AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB1D3008FF4800716AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB273008FF4800716AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FBCCABC3008CCF400716AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCAC93008CCF600716AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCAD33008CCF600716AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB0F3008FF4700716AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB1B3008FF4800716AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FBCCB253008FF4800716AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FBCCACF3008CCF600716AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FBCCABF3008CCF400716AC5 /* SOLID-Implementation */;
+			targetProxy = 4FBCCACE3008CCF600716AC5 /* PBXContainerItemProxy */;
+		};
+		4FBCCAD93008CCF600716AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FBCCABF3008CCF400716AC5 /* SOLID-Implementation */;
+			targetProxy = 4FBCCAD83008CCF600716AC5 /* PBXContainerItemProxy */;
+		};
+		4FBCCB213008FF4800716AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FBCCB123008FF4700716AC5 /* SOLID-UIKit */;
+			targetProxy = 4FBCCB203008FF4800716AC5 /* PBXContainerItemProxy */;
+		};
+		4FBCCB2B3008FF4800716AC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FBCCB123008FF4700716AC5 /* SOLID-UIKit */;
+			targetProxy = 4FBCCB2A3008FF4800716AC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FBCCADF3008CCF600716AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FBCCAE03008CCF600716AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 446868A7HF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4FBCCAE23008CCF600716AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQVUT2443V;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-Implementation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4FBCCAE33008CCF600716AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQVUT2443V;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-Implementation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4FBCCAE53008CCF600716AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-ImplementationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLID-Implementation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOLID-Implementation";
+			};
+			name = Debug;
+		};
+		4FBCCAE63008CCF600716AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-ImplementationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLID-Implementation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOLID-Implementation";
+			};
+			name = Release;
+		};
+		4FBCCAE83008CCF600716AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-ImplementationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SOLID-Implementation";
+			};
+			name = Debug;
+		};
+		4FBCCAE93008CCF600716AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-ImplementationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SOLID-Implementation";
+			};
+			name = Release;
+		};
+		4FBCCB323008FF4800716AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQVUT2443V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FBCCB333008FF4800716AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQVUT2443V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FBCCB353008FF4800716AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLID-UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOLID-UIKit";
+			};
+			name = Debug;
+		};
+		4FBCCB363008FF4800716AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLID-UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SOLID-UIKit";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FBCCB383008FF4800716AC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SOLID-UIKit";
+			};
+			name = Debug;
+		};
+		4FBCCB393008FF4800716AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 446868A7HF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MoArafa.SOLID-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SOLID-UIKit";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FBCCABB3008CCF400716AC5 /* Build configuration list for PBXProject "SOLID-Implementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBCCADF3008CCF600716AC5 /* Debug */,
+				4FBCCAE03008CCF600716AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBCCAE13008CCF600716AC5 /* Build configuration list for PBXNativeTarget "SOLID-Implementation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBCCAE23008CCF600716AC5 /* Debug */,
+				4FBCCAE33008CCF600716AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBCCAE43008CCF600716AC5 /* Build configuration list for PBXNativeTarget "SOLID-ImplementationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBCCAE53008CCF600716AC5 /* Debug */,
+				4FBCCAE63008CCF600716AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBCCAE73008CCF600716AC5 /* Build configuration list for PBXNativeTarget "SOLID-ImplementationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBCCAE83008CCF600716AC5 /* Debug */,
+				4FBCCAE93008CCF600716AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBCCB313008FF4800716AC5 /* Build configuration list for PBXNativeTarget "SOLID-UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBCCB323008FF4800716AC5 /* Debug */,
+				4FBCCB333008FF4800716AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBCCB343008FF4800716AC5 /* Build configuration list for PBXNativeTarget "SOLID-UIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBCCB353008FF4800716AC5 /* Debug */,
+				4FBCCB363008FF4800716AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FBCCB373008FF4800716AC5 /* Build configuration list for PBXNativeTarget "SOLID-UIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBCCB383008FF4800716AC5 /* Debug */,
+				4FBCCB393008FF4800716AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FBCCAB83008CCF400716AC5 /* Project object */;
+}
