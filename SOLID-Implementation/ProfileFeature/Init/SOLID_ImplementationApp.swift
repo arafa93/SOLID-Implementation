@@ -11,7 +11,26 @@ import SwiftUI
 struct SOLID_ImplementationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UIKitProfileRootView()
+                .ignoresSafeArea()
         }
+    }
+}
+
+private struct UIKitProfileRootView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> ProfileViewController {
+        ProfileViewController(
+            viewModel: ProfileViewModel(
+                loadProfile: DemoLoadProfileUseCase()
+            )
+        )
+    }
+    
+    func updateUIViewController(_ uiViewController: ProfileViewController, context: Context) { }
+}
+
+private struct DemoLoadProfileUseCase: LoadProfileUseCase {
+    func execute() async throws -> Profile? {
+        Profile(name: "Mohamed Arafa", email: "mohamed@example.com")
     }
 }
